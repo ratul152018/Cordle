@@ -2,9 +2,9 @@
 
 CORDLE- WORDLE in god mode
 
-![cordle](https://user-images.githubusercontent.com/68326674/153160440-b5190c52-8560-4ecb-b3df-88c81f866575.png)
+Try it online : https://colab.research.google.com/drive/1O8jFePppYDX6QOuIax42Ivvr4VjaE4Vg?usp=sharing
 
-try it online : https://colab.research.google.com/drive/1O8jFePppYDX6QOuIax42Ivvr4VjaE4Vg?usp=sharing
+![cordle](https://user-images.githubusercontent.com/68326674/153160440-b5190c52-8560-4ecb-b3df-88c81f866575.png)
 
 Command line + WORDLE = CORDLE
 
