@@ -4,8 +4,9 @@ CORDLE- WORDLE in god mode
 inspired by:
 https://www.powerlanguage.co.uk/wordle/
 
-Guess the CORDLE in 6 tries.
 
+    Guess the CORDLE in 6 tries.
+    
     Examples:
         Draft
         DR^--
