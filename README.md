@@ -1,6 +1,8 @@
 # Cordle
 CORDLE- WORDLE in god mode
 
+Command line + WORDLE = CORDLE
+
 inspired by:
 https://www.powerlanguage.co.uk/wordle/
 
