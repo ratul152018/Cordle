@@ -7,9 +7,13 @@ def make_raw(str):
     str = str.upper()
     return str
 
+try:
+    with open(f"{os.path.dirname(__file__)}/words.txt", 'r') as f:
+        word_list = f.readlines()
 
-with open(f"{os.path.dirname(__file__)}/words.txt", 'r') as f:
-    word_list = f.readlines()
+except:
+    with open("words.txt", 'r') as f:
+        word_list = f.readlines()
     
 random = random.randint(0,len(word_list))
 word = make_raw(word_list[random])
