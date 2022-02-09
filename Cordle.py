@@ -34,7 +34,7 @@ Guess the CORDLE in 6 tries.
     Examples:
         Draft
         DR^--
-/
+
     The letter D and R is in the word and in the correct spot.
     The letter A is in the word but in the wrong spot.
     The letter U is not in the word in any spot.
@@ -50,6 +50,7 @@ for try_count in range(1,7):
     guess = make_raw(input())
 
     if guess == "?":
+        print(f"Game Over '{word}' was secret the word")
         break
 
     while len(guess) != 5:
@@ -72,5 +73,4 @@ for try_count in range(1,7):
         print("Won in", try_count, "try!!")
         break
 
-print(f"Game Over '{word}' was secret the word")
 key = input("Press enter to exit!")
