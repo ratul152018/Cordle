@@ -1,7 +1,7 @@
 import random
 import os
 
-
+#this function outputs string without nweline and makes input string all caps
 def make_raw(str):
     str = str.replace("\n",'')
     str = str.upper()
