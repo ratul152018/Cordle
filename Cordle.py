@@ -11,10 +11,12 @@ try:
     with open(f"{os.path.dirname(__file__)}/words.txt", 'r') as f:
         word_list = f.readlines()
 
+# reading words from .txt file
 except:
     with open("words.txt", 'r') as f:
         word_list = f.readlines()
-    
+
+#taking a random word
 random = random.randint(0,len(word_list))
 word = make_raw(word_list[random])
 
@@ -46,6 +48,7 @@ Guess the CORDLE in 6 tries.
     
 """)
 
+#doing evulation
 for try_count in range(1,7):
     guess = make_raw(input())
 
